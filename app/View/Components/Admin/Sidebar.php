@@ -4,20 +4,20 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class AppLayout extends Component
+class Sidebar extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-    public $title;
+
     public $active;
-    public function __construct($title = null, $active = null)
+    public function __construct($active = null)
     {
-        $this->title = $title ?? 'Sampein';
         $this->active = $active;
     }
+
 
     /**
      * Get the view / contents that represent the component.
@@ -26,6 +26,6 @@ class AppLayout extends Component
      */
     public function render()
     {
-        return view('layouts.admin');
+        return view('components.admin.sidebar');
     }
 }

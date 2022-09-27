@@ -4,20 +4,18 @@ namespace App\View\Components;
 
 use Illuminate\View\Component;
 
-class Sidebar extends Component
+class Header extends Component
 {
     /**
      * Create a new component instance.
      *
      * @return void
      */
-
-    public $active;
-    public function __construct($active = null)
+    public $title;
+    public function __construct($title = null)
     {
-        $this->active = $active;
+        $this->title = $title ?? 'Sike App';
     }
-
 
     /**
      * Get the view / contents that represent the component.
@@ -26,6 +24,6 @@ class Sidebar extends Component
      */
     public function render()
     {
-        return view('components.sidebar');
+        return view('components.user.header');
     }
 }

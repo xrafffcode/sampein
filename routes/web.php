@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\User\HomeController;
+use App\Http\Controllers\User\MessagesController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -14,10 +16,14 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/{uuid}', [HomeController::class, 'show'])->name('show');
 
-Auth::routes();
+Route::resource('home', HomeController::class);
+Route::resource('messages', MessagesController::class);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Auth::routes([
+    'register' => false,
+    'reset' => false,
+    'verify' => false,
+]);
