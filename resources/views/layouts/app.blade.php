@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Voting Osis">
+    <meta name="description" content="Sampein, kirim atau dapatkan pesan anonim">
     <title>{{ $title }}</title>
 
     <link rel="stylesheet" href="{{ asset('assets/css/main/app.css') }}">
