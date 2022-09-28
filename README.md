@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://sampein.xrafff-dev.xyz/" target="_blank">
-        <img src "https://user-images.githubusercontent.com/70202056/192845238-b6f91add-3bf9-4f98-96ba-07bb337e2093.png" width="400">
+       <img src="https://user-images.githubusercontent.com/70202056/192845238-b6f91add-3bf9-4f98-96ba-07bb337e2093.png" alt="Girl in a jacket" width="500">
     </a>
 </p>
 
