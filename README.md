@@ -4,7 +4,7 @@
     </a>
 </p>
 
-![header-sampein](https://user-images.githubusercontent.com/70202056/192845238-b6f91add-3bf9-4f98-96ba-07bb337e2093.png)
+
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
